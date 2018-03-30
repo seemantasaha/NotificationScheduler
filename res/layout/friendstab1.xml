@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:orientation="vertical"
+  android:background="#ffffff"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  
+    
+    
+    <RelativeLayout 
+      android:id="@+id/llSend"
+      android:layout_alignParentBottom="true"
+      android:layout_width="match_parent"
+      android:background="#ffffff"
+      android:paddingTop="5dp"
+      android:paddingBottom="10dp"
+      android:paddingLeft="0dp"
+      android:paddingRight="0dp"
+      android:layout_height="wrap_content" >
+
+      <Button
+          android:id="@+id/btReqSend"
+          style="@style/button_style"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:gravity="center_vertical|right"
+          android:paddingRight="10dp"
+          android:text="Send Request"
+          android:textSize="18sp" >
+
+    </Button>
+
+      <EditText
+          android:id="@+id/etReqUser"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignBottom="@+id/btReqSend"
+          android:layout_toLeftOf="@+id/btReqSend"
+          android:ems="10"
+          android:gravity="top"
+          android:imeOptions="actionSend"
+          android:inputType="textShortMessage"
+          android:hint="@string/usernae_hint" >
+
+          <requestFocus />
+      </EditText>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/llSend"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+      
+	<ScrollView
+	    android:id="@+id/sv_top"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/llSend" >
+
+    <LinearLayout
+        android:id="@+id/llF"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+        
+    </LinearLayout>
+    </ScrollView>>
+    </LinearLayout>>
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_my_friends"
+        android:title="My Friends"
+        android:showAsAction="never"/>
+	<item
+        android:id="@+id/action_my_notifications"
+        android:title="My Notifications"
+        android:showAsAction="never"/>
+	<item
+        android:id="@+id/action_me"
+        android:title="Me"
+        android:showAsAction="never"/>
+</menu>

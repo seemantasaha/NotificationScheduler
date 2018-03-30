@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Jumly</string>
+    <string name="action_settings">Settings</string>
+    <string name="usernae_hint">Friend’s username</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="terms">"Jumly Application brings new facilties to provide you more connected to your business and society. 1. You location data will be captured. 2. Your device sensor data will be captured. 3. You can not use your friends location data to create problem for them rather  be connected with them in safe way. All rights preserved by Jumly Application Organisation.
+                Jumly Application brings new facilties to provide you more connected to your business and society. 1. You location data will be captured. 2. Your device sensor data will be captured. 3. You can not use your friends location data to create problem for them rather  be connected with them in safe way. All rights preserved by Jumly Application Organisation.
+                Jumly Application brings new facilties to provide you more connected to your business and society. 1. You location data will be captured. 2. Your device sensor data will be captured. 3. You can not use your friends location data to create problem for them rather  be connected with them in safe way. All rights preserved by Jumly Application Organisation."</string>
+
+</resources>

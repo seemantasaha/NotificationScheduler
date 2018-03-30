@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start|top"
+            android:layout_marginTop="-15dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/iv_noti_img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/jumly_logo" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtwelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-20dp"
+            android:paddingTop="20dp"
+            android:text="Welcome to JUMLY"
+            android:textSize="25sp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/txtuser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:typeface="monospace" />
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/friend"
+                style="@style/button_style"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:layout_weight="0.73"
+                android:text="Make Friend" />
+
+            <Button
+                android:id="@+id/frnd_list"
+                style="@style/button_style"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="0.73"
+                android:text="Friend List" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bt_notificationlist"
+            style="@style/button_style"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="Notification List" />
+
+        <Button
+            android:id="@+id/me"
+            style="@style/button_style"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="ME" />
+
+        <Button
+            android:id="@+id/logout"
+            style="@style/button_style"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Logout" />
+    </LinearLayout>
+ 
+</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/tv_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bt_accept"
+        android:layout_alignBottom="@+id/bt_accept"
+        android:layout_alignParentLeft="true"
+        android:text="No Request"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="15sp" />
+    
+    <Button
+        android:id="@+id/bt_block"
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:textSize="15sp"
+        android:layout_alignBaseline="@+id/bt_reject"
+        android:layout_alignBottom="@+id/bt_reject"
+        android:layout_alignParentRight="true"
+        android:text="Block" />
+
+    <Button
+        android:id="@+id/bt_accept"
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/tv_user"
+        android:text="Accept"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/bt_reject"
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/bt_block"
+        android:text="Reject"
+        android:textSize="15sp" />
+
+    
+
+</RelativeLayout>
